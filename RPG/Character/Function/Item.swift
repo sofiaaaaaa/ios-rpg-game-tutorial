@@ -18,7 +18,7 @@ extension Character {
         ItemBody.xScale = 0.7
         ItemBody.yScale = 0.7
         
-        self.addChild(ItemBody)
+        LocalCamera.addChild(ItemBody)
         
         // Action //
         let FadeOutAction = SKAction.fadeOut(withDuration: 1) // 1초

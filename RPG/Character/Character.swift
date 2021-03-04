@@ -18,7 +18,12 @@ class Character: SKSpriteNode {
     var AttackDirection = Direction.S
     
     // Status //
+    var PositionX = CGFloat()
+    var PositionY = CGFloat()
     var SP = CGFloat()
+    var RunSP = CGFloat()
+    var WalkSP = CGFloat()
+    var Number = Int()
     
     // Move //
     var SpeedX = CGFloat()

@@ -26,7 +26,7 @@ extension Character {
             Circle.position = Scene.SkillButton.position
         }
         
-        Scene.addChild(Circle)
+        LocalCamera.addChild(Circle)
         
         // Animation //
         let Step = Int(360)

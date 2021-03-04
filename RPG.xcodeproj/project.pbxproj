@@ -23,16 +23,20 @@
 		3D1C98DC25ED2F3900EEF40C /* RedSwanMoveN.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 3D1C98D825ED2F3800EEF40C /* RedSwanMoveN.atlas */; };
 		3D1C98DD25ED2F3900EEF40C /* RedSwanMoveW.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 3D1C98D925ED2F3800EEF40C /* RedSwanMoveW.atlas */; };
 		3D1C98DE25ED2F3900EEF40C /* RedSwanMoveS.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 3D1C98DA25ED2F3900EEF40C /* RedSwanMoveS.atlas */; };
-		3D1C98E525ED345200EEF40C /* Attack_Standoff.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 3D1C98E225ED345200EEF40C /* Attack_Standoff.atlas */; };
-		3D1C98E625ED345200EEF40C /* Attack_Melee.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 3D1C98E325ED345200EEF40C /* Attack_Melee.atlas */; };
-		3D1C98E725ED345200EEF40C /* Attack_Meteor.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 3D1C98E425ED345200EEF40C /* Attack_Meteor.atlas */; };
 		3D1C98EB25ED356D00EEF40C /* Melee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1C98EA25ED356D00EEF40C /* Melee.swift */; };
 		3D57EA5125EE52A900332655 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D57EA5025EE52A900332655 /* Item.swift */; };
-		3D57EA5425EE54CA00332655 /* Attack_Meteor.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 3D57EA5325EE54CA00332655 /* Attack_Meteor.atlas */; };
 		3D57EA5725EE54E500332655 /* Meteor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D57EA5625EE54E500332655 /* Meteor.swift */; };
 		3D57EA5A25EE5DCB00332655 /* Delay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D57EA5925EE5DCB00332655 /* Delay.swift */; };
 		3D57EA5D25EE653300332655 /* GameData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3D57EA5C25EE653300332655 /* GameData.plist */; };
 		3D57EA6225EE676900332655 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D57EA6125EE676900332655 /* Data.swift */; };
+		3D57EA6925EF4CAE00332655 /* ArcherMoveS.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 3D57EA6525EF4CAE00332655 /* ArcherMoveS.atlas */; };
+		3D57EA6A25EF4CAE00332655 /* ArcherMoveW.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 3D57EA6625EF4CAE00332655 /* ArcherMoveW.atlas */; };
+		3D57EA6B25EF4CAE00332655 /* ArcherMoveN.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 3D57EA6725EF4CAE00332655 /* ArcherMoveN.atlas */; };
+		3D57EA6C25EF4CAE00332655 /* ArcherMoveE.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 3D57EA6825EF4CAE00332655 /* ArcherMoveE.atlas */; };
+		3D57EA7125EF4FF700332655 /* Attack_Standoff.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 3D57EA6E25EF4FF700332655 /* Attack_Standoff.atlas */; };
+		3D57EA7225EF4FF700332655 /* Attack_Meteor.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 3D57EA6F25EF4FF700332655 /* Attack_Meteor.atlas */; };
+		3D57EA7325EF4FF700332655 /* Attack_Melee.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 3D57EA7025EF4FF700332655 /* Attack_Melee.atlas */; };
+		3D57EA7725EF52F900332655 /* PhysicsBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D57EA7625EF52F800332655 /* PhysicsBody.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,16 +58,20 @@
 		3D1C98D825ED2F3800EEF40C /* RedSwanMoveN.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = RedSwanMoveN.atlas; path = RPG/Image/Move/RedSwanMoveN.atlas; sourceTree = SOURCE_ROOT; };
 		3D1C98D925ED2F3800EEF40C /* RedSwanMoveW.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = RedSwanMoveW.atlas; path = RPG/Image/Move/RedSwanMoveW.atlas; sourceTree = SOURCE_ROOT; };
 		3D1C98DA25ED2F3900EEF40C /* RedSwanMoveS.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = RedSwanMoveS.atlas; path = RPG/Image/Move/RedSwanMoveS.atlas; sourceTree = SOURCE_ROOT; };
-		3D1C98E225ED345200EEF40C /* Attack_Standoff.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = Attack_Standoff.atlas; path = "99. Supporting File/3. Attack/Attack_Standoff.atlas"; sourceTree = SOURCE_ROOT; };
-		3D1C98E325ED345200EEF40C /* Attack_Melee.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = Attack_Melee.atlas; path = "99. Supporting File/3. Attack/Attack_Melee.atlas"; sourceTree = SOURCE_ROOT; };
-		3D1C98E425ED345200EEF40C /* Attack_Meteor.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = Attack_Meteor.atlas; path = "99. Supporting File/3. Attack/Attack_Meteor.atlas"; sourceTree = SOURCE_ROOT; };
 		3D1C98EA25ED356D00EEF40C /* Melee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Melee.swift; sourceTree = "<group>"; };
 		3D57EA5025EE52A900332655 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
-		3D57EA5325EE54CA00332655 /* Attack_Meteor.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = Attack_Meteor.atlas; path = "99. Supporting File/3. Attack/Attack_Meteor.atlas"; sourceTree = SOURCE_ROOT; };
 		3D57EA5625EE54E500332655 /* Meteor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meteor.swift; sourceTree = "<group>"; };
 		3D57EA5925EE5DCB00332655 /* Delay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Delay.swift; sourceTree = "<group>"; };
 		3D57EA5C25EE653300332655 /* GameData.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = GameData.plist; sourceTree = "<group>"; };
 		3D57EA6125EE676900332655 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		3D57EA6525EF4CAE00332655 /* ArcherMoveS.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = ArcherMoveS.atlas; sourceTree = "<group>"; };
+		3D57EA6625EF4CAE00332655 /* ArcherMoveW.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = ArcherMoveW.atlas; sourceTree = "<group>"; };
+		3D57EA6725EF4CAE00332655 /* ArcherMoveN.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = ArcherMoveN.atlas; sourceTree = "<group>"; };
+		3D57EA6825EF4CAE00332655 /* ArcherMoveE.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = ArcherMoveE.atlas; sourceTree = "<group>"; };
+		3D57EA6E25EF4FF700332655 /* Attack_Standoff.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Attack_Standoff.atlas; sourceTree = "<group>"; };
+		3D57EA6F25EF4FF700332655 /* Attack_Meteor.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Attack_Meteor.atlas; sourceTree = "<group>"; };
+		3D57EA7025EF4FF700332655 /* Attack_Melee.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Attack_Melee.atlas; sourceTree = "<group>"; };
+		3D57EA7625EF52F800332655 /* PhysicsBody.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhysicsBody.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				3D1C98D125ED2AB700EEF40C /* Move.swift */,
+				3D57EA7625EF52F800332655 /* PhysicsBody.swift */,
 				3D57EA5025EE52A900332655 /* Item.swift */,
 				3D57EA5925EE5DCB00332655 /* Delay.swift */,
 			);
@@ -171,6 +180,10 @@
 		3D1C98E025ED343200EEF40C /* Move */ = {
 			isa = PBXGroup;
 			children = (
+				3D57EA6825EF4CAE00332655 /* ArcherMoveE.atlas */,
+				3D57EA6725EF4CAE00332655 /* ArcherMoveN.atlas */,
+				3D57EA6525EF4CAE00332655 /* ArcherMoveS.atlas */,
+				3D57EA6625EF4CAE00332655 /* ArcherMoveW.atlas */,
 				3D1C98D725ED2F3800EEF40C /* RedSwanMoveE.atlas */,
 				3D1C98D825ED2F3800EEF40C /* RedSwanMoveN.atlas */,
 				3D1C98DA25ED2F3900EEF40C /* RedSwanMoveS.atlas */,
@@ -182,10 +195,9 @@
 		3D1C98E125ED344600EEF40C /* Attack */ = {
 			isa = PBXGroup;
 			children = (
-				3D57EA5325EE54CA00332655 /* Attack_Meteor.atlas */,
-				3D1C98E325ED345200EEF40C /* Attack_Melee.atlas */,
-				3D1C98E425ED345200EEF40C /* Attack_Meteor.atlas */,
-				3D1C98E225ED345200EEF40C /* Attack_Standoff.atlas */,
+				3D57EA7025EF4FF700332655 /* Attack_Melee.atlas */,
+				3D57EA6F25EF4FF700332655 /* Attack_Meteor.atlas */,
+				3D57EA6E25EF4FF700332655 /* Attack_Standoff.atlas */,
 			);
 			path = Attack;
 			sourceTree = "<group>";
@@ -264,18 +276,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D1C98E725ED345200EEF40C /* Attack_Meteor.atlas in Resources */,
 				3D57EA5D25EE653300332655 /* GameData.plist in Resources */,
 				3D1C98B125EBB01D00EEF40C /* Main.storyboard in Resources */,
 				3D1C98A825EBB01D00EEF40C /* GameScene.sks in Resources */,
-				3D1C98E625ED345200EEF40C /* Attack_Melee.atlas in Resources */,
 				3D1C98DC25ED2F3900EEF40C /* RedSwanMoveN.atlas in Resources */,
-				3D57EA5425EE54CA00332655 /* Attack_Meteor.atlas in Resources */,
-				3D1C98E525ED345200EEF40C /* Attack_Standoff.atlas in Resources */,
+				3D57EA6A25EF4CAE00332655 /* ArcherMoveW.atlas in Resources */,
+				3D57EA6925EF4CAE00332655 /* ArcherMoveS.atlas in Resources */,
+				3D57EA6C25EF4CAE00332655 /* ArcherMoveE.atlas in Resources */,
 				3D1C98DE25ED2F3900EEF40C /* RedSwanMoveS.atlas in Resources */,
+				3D57EA7325EF4FF700332655 /* Attack_Melee.atlas in Resources */,
+				3D57EA7125EF4FF700332655 /* Attack_Standoff.atlas in Resources */,
 				3D1C98DB25ED2F3900EEF40C /* RedSwanMoveE.atlas in Resources */,
+				3D57EA7225EF4FF700332655 /* Attack_Meteor.atlas in Resources */,
 				3D1C98B325EBB01D00EEF40C /* Assets.xcassets in Resources */,
 				3D1C98DD25ED2F3900EEF40C /* RedSwanMoveW.atlas in Resources */,
+				3D57EA6B25EF4CAE00332655 /* ArcherMoveN.atlas in Resources */,
 				3D1C98AA25EBB01D00EEF40C /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,6 +309,7 @@
 				3D1C98CC25ED294400EEF40C /* Share.swift in Sources */,
 				3D1C98C325ED08F400EEF40C /* Update.swift in Sources */,
 				3D1C98EB25ED356D00EEF40C /* Melee.swift in Sources */,
+				3D57EA7725EF52F900332655 /* PhysicsBody.swift in Sources */,
 				3D1C98D225ED2AB700EEF40C /* Move.swift in Sources */,
 				3D57EA6225EE676900332655 /* Data.swift in Sources */,
 				3D1C98C725ED269F00EEF40C /* Character.swift in Sources */,
